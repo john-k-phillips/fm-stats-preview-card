@@ -22,6 +22,14 @@
         flex-direction: row;
         position: absolute;
         bottom: 1em;
+        gap: 3em;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 60%;
         gap: 5em;
     }
 }
