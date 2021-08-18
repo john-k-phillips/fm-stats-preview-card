@@ -32,7 +32,7 @@
             padding: 0;
             padding-bottom: 1em;
 
-            font-size: clamp(1em, 2vw, 2.5em)
+            font-size: clamp(1em, 2.2vw, 2.5em)
         }
         p {
             width: 100%;
@@ -44,7 +44,7 @@
 @media screen and (min-width: 1440px) {
     .content {
         p {
-            width: 65%;
+            width: 95%;
         }
     }
 }
