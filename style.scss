@@ -1,4 +1,6 @@
-@import './variables';
+@import 'styles/variables';
+@import 'styles/hero';
+@import 'styles/content';
 
 * {
     margin: 0px;
@@ -9,4 +11,28 @@
 body {
     font-family: $font-inter;
     font-size: 15px;
+
+    background-color: $clr-blue-800;
+    height: 100vh;
+
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    background-color: $clr-blue-600;
+    width: 80%;
+    height: 500px;
+
+    border-radius: $radius;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        width: 70%;
+    }
 }
