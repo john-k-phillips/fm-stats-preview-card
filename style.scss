@@ -1,6 +1,7 @@
 @import 'styles/variables';
 @import 'styles/hero';
 @import 'styles/content';
+@import 'styles/stats';
 
 * {
     margin: 0px;
@@ -11,9 +12,11 @@
 body {
     font-family: $font-inter;
     font-size: 15px;
+    color: $clr-white-200;
 
     background-color: $clr-blue-800;
-    height: 100vh;
+    margin-bottom: 3em;
+    margin-top: 3em;
 
     display: grid;
     place-items: center;
@@ -22,7 +25,6 @@ body {
 .container {
     background-color: $clr-blue-600;
     width: 80%;
-    height: 500px;
 
     border-radius: $radius;
 
@@ -30,9 +32,14 @@ body {
     flex-direction: column-reverse;
 }
 
+.accent-text {
+    color: $clr-pruple-400;
+}
+
 @media screen and (min-width: 768px) {
     .container {
         flex-direction: row;
         width: 70%;
+        height: 450px;
     }
 }
