@@ -13,13 +13,30 @@
         padding: 1em;
     }
     p {
-        color: $clr-white-200-transparent;
+        color: $clr-white-400-transparent;
     }
 }
 
 @media screen and (min-width: 768px) {
     .content {
+        position: relative;
         height: 100%;
         width: 55%;
+
+        text-align: left;
+
+        align-items: flex-start;
+        padding: 5em;
+
+        h1 {
+            padding: 0;
+            padding-bottom: 1em;
+
+            font-size: 2.5em;
+        }
+        p {
+            width: 80%;
+            line-height: 1.8em;
+        }
     }
 }
