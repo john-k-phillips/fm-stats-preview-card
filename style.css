@@ -39,13 +39,28 @@
 }
 
 .content p {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (min-width: 768px) {
   .content {
+    position: relative;
     height: 100%;
     width: 55%;
+    text-align: left;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 5em;
+  }
+  .content h1 {
+    padding: 0;
+    padding-bottom: 1em;
+    font-size: 2.5em;
+  }
+  .content p {
+    width: 80%;
+    line-height: 1.8em;
   }
 }
 
@@ -73,9 +88,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  .content {
-    height: 100%;
-    width: 55%;
+  .stats {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: absolute;
+    bottom: 1em;
+    gap: 5em;
   }
 }
 
@@ -116,12 +136,16 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    height: 100vh;
+    margin: 0;
+  }
   .container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: 70%;
+    width: 60%;
     height: 450px;
   }
 }
