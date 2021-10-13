@@ -29,7 +29,7 @@ Your users should be able to:
 ![](./design/mobile-design.jpg)
 
 <!-- REPLACE LIST ITEMS -->
-<h2>Satisfication</h2>
+<h2>Satisfaction</h2>
 <h3>The Good</h3>
   <ul>
     <li>Color overlay over the image.</li>
@@ -54,7 +54,7 @@ Your users should be able to:
   <p>
     I learnt how to effectivly use flexbox and having multiple color layers over an image.
   </p>
-<h3>Continuted Development</h3>
+<h3>Continued Development</h3>
   <p>
     I would like to redesign the entierly, I would change the typography sizing and the card width.
   </p>
