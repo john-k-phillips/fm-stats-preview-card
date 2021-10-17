@@ -46,7 +46,6 @@ Your users should be able to:
 <p>
   <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-red?style=flat-square&logo=html5&logoColor=white" />
   <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-blue?style=flat-square&logo=css3&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-yellow?style=flat-square&logo=JavaScript&logoColor=white" />
   
   <img alt="SASS" src="https://img.shields.io/badge/-SASS-bf4080?style=flat-square&logo=sass&logoColor=white" />
 </p>
